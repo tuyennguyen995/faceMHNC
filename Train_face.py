@@ -59,7 +59,7 @@ for j in range(5):
         json_file.write(model_json)
 
     # Lưu các trọng số
-    model.save_weights('face_model_weights.h5'+str(j))
+    model.save_weights('face_model_weights_'+str(j)'.h5')
 
 
 
